@@ -135,8 +135,8 @@ EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 EMAIL_USE_SSL = False
-EMAIL_HOST_USER = 'joy572064@gmail.com'
-EMAIL_HOST_PASSWORD = 'wudikdndutrwxxsj'
+EMAIL_HOST_USER = 'HOST EMAIL'
+EMAIL_HOST_PASSWORD = 'REPLACE WITH YOUR APP PASSWORD'
 
 # DEFAULT_FROM_EMAIL = 'joy572064@gmail.com'  # Replace with your email
 # BASE_URL = 'http://localhost:8000'
