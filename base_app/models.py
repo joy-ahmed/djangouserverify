@@ -52,4 +52,4 @@ class CustomUser(AbstractBaseUser, PermissionsMixin):
     def email_verification(self):
         subject = 'Account Verification'
         message = f'Hi {self.first_name if self.first_name else "User"}, \n\nThank you for registering. Please click the following link to verify your account\n\nhttp://127.0.0.1:8000/verify/?token={self.verification_token}'
-        send_mail(subject, message, 'joy572064@gmail.com', [self.email])
+        send_mail(subject, message, 'REPLACE WITH HOST EMAIL', [self.email])
