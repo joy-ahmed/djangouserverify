@@ -16,7 +16,7 @@ def register_user(request):
         form = CustomUserCreationForm(request.POST)
         if form.is_valid():
             user = form.save(commit=False)
-            user.set_password(form.cleaned_data['password'])
+            user.set_password(form.cleaned_data['password2'])
             user.generate_verification_token()
             user.email_verification()
             user.save()
